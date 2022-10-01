@@ -20,6 +20,7 @@ img {
   width: 98%;
   border-radius: 5%;
   border: 2px solid blue;
+  transition: .3s;
 }
 
 img:hover {
@@ -31,8 +32,13 @@ img:hover {
 }
 
 #Contribution {
-  background-color: black;
+  background-color: #a49c9c;
   color: rgb(125, 122, 122);
+
+}
+
+#Contribution  h2{
+  margin: 1rem;
 }
 
 .you {
@@ -148,10 +154,10 @@ img:hover {
   font-style: bold;
 }
 
- {
+ /* {
   font-family: "Oxygen Mono";
   font-size: 40px;
-}
+} */
 .rahul {
     font-family: "Oxygen Mono";
     font-size: 40px;
